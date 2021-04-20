@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+}
+.container{
+    max-width: 1080px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+.My-profile{
+    width: 100px;
+    height: 120px;
+    border: 3px solid wheat;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+
+}
+.header-contact p a{
+    color: #11999e;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-contact p a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.personal-section{
+    padding: 10px;
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/* Work Experience CSS*/
+.work-section{
+    padding: 10px;
+    margin: 10px;
+}
+.work-left-div{
+    width: 30%;
+    float: left;
+}
+.work-right-div{
+    width: 70%;
+    float: right;
+}
+
+
+.edu-left-div{
+    float: left;
+}
+.edu-right-div{
+    float: right;
+}
+
+/*Footer Start*/
+
+.Bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.Bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.Bottom-container p{
+    color: white;
+    margin: 20px;
+}
+
